@@ -2,6 +2,7 @@ body{
 	background-color: blue;
 }
 
-#welcomebar{
-	background-color: yellow;
+#welcomeBar{
+	background-color: #F3FAD1;
+	border-bottom: solid, 1px, black;
 }

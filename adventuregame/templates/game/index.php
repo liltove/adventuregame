@@ -1,9 +1,8 @@
-<?php require 'game/header.php'; ?>
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 <head>
 <title>Frontier</title>
-{% load staticfiles %}
 <link rel="stylesheet" type="text/css" href="{% static 'game/main.css' %}" />
 </head>
 
