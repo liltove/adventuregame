@@ -1,4 +1,4 @@
 adventuregame
 =============
 
-Our code space for the python game.
+To run the game: http://desolate-shore-4394.herokuapp.com/game/
