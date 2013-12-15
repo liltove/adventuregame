@@ -19,7 +19,7 @@
 <div id ="main">
 	<div id="nav">
 		{% static 'game/nav.php' %}
-		
+		<?php include("/static/game/nav.php"); ?>
 	</div>
 	<div id="win"
 		<p>More to come soon.</p>
