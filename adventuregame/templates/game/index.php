@@ -1,9 +1,9 @@
-<?php require 'header.php'; ?>
+<?php require 'game/header.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
 <title>Frontier</title>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="game/main.css">
 </head>
 
 <body>
