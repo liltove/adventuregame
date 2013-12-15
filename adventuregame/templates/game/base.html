@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+
+{% load staticfiles %}
 {% block head_block %}
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Frontier</title>
-	{% load staticfiles %}
 	<link rel="stylesheet" type="text/css" href="{% static 'game/main.css' %}" />
 </head>
 
 <body>
 {% endblock %}
+
 {% block welcome_block %}
 <div id="welcomeBar">
 	<h1>Welcome to The Frontier,
