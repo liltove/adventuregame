@@ -18,8 +18,8 @@
 </div>
 <div id ="main">
 	<div id="nav">
-		<?php $stat="{% static 'game/nav.php' %}"; ?>
-		<?php echo "$stat";?>
+		{% static 'game/nav.php' %}
+		
 	</div>
 	<div id="win"
 		<p>More to come soon.</p>
