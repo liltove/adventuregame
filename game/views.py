@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-class MainView(BaseCompositeView):
+class MainView():
 
     """
     A view of the main game page.
