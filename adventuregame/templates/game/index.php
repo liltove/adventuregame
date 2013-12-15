@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php require 'header.php'; ?>
 
 <div id="welcomeBar">
 	<h1>Welcome to The Frontier,
