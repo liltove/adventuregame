@@ -9,4 +9,4 @@ class MainView():
     """
     # We cannot easily override FormView since this view uses multiple forms
 
-    template_name = "game/main.html"
+    template_name = "game/index.html"
