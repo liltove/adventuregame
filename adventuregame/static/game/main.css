@@ -1,8 +1,10 @@
 body{
-	background-color: blue;
+	background-color: #19D8FF;
+	margin: 0px;
 }
 
 #welcomeBar{
 	background-color: #F3FAD1;
 	border-bottom: solid, 1px, black;
+	padding: 5px;
 }
