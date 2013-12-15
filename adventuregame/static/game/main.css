@@ -8,3 +8,10 @@ body{
 	border-bottom: solid, 1px, black;
 	padding: 5px;
 }
+
+#nav{
+	float: left;
+	padding: 5px;
+	background-color: #5883E8;
+	width: 150px;
+}

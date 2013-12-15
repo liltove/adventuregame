@@ -15,10 +15,13 @@
 	Guess who’s coming to … the frontier!,
 	Space, The Penultimate Frontier!</h1>
 </div>
-<div>
-<p>More to come soon.</p>
-
-<h2><?php echo getcwd() ?></h2>
+<div id ="main">
+	<div id="nav">
+		<?php include "{% static 'game/nav.php' %}"
+	</div>
+	<div id="win"
+		<p>More to come soon.</p>
+	</div>
 </div>
 </body>
 </html>
