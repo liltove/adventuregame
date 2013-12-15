@@ -1,4 +1,12 @@
 <?php require 'header.php'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frontier</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
 
 <div id="welcomeBar">
 	<h1>Welcome to The Frontier,
