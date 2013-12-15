@@ -20,6 +20,7 @@
 	<div id="nav">
 		<?php include "/static/game/nav.php"; ?>
 		<?php echo "{% static 'game/nav.php' %}"; ?>
+		<?php $stat={% static 'game/nav.php' %}; ?>
 	</div>
 	<div id="win"
 		<p>More to come soon.</p>
