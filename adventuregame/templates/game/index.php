@@ -18,7 +18,7 @@
 <div>
 <p>More to come soon.</p>
 
-<?php echo pathinfo ?>
+<h2><?php echo getcwd() ?></h2>
 </div>
 </body>
 </html>
