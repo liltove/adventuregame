@@ -3,8 +3,7 @@
 <html>
 <head>
 <title>Frontier</title>
-{% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% static 'game/main.css' %}" />
+<link rel="stylesheet" type="text/css" href="game/main.css">
 </head>
 
 <body>
