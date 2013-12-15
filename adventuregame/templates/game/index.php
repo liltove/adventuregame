@@ -17,6 +17,8 @@
 </div>
 <div>
 <p>More to come soon.</p>
+
+<?php echo pathinfo ?>
 </div>
 </body>
 </html>
