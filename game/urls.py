@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 
 from django.conf.urls import patterns, url
 
-from polls import views
+from game import views
 
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index')
