@@ -1,6 +1,5 @@
 
 {% load staticfiles %}
-{% block head_block %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +8,8 @@
 </head>
 
 <body>
-{% endblock %}
 
-{% block welcome_block %}
+
 <div id="welcomeBar">
 	<h1>Welcome to The Frontier,
 	Frontier Fracas,
@@ -19,14 +17,14 @@
 	Guess who’s coming to … the frontier!,
 	Space, The Penultimate Frontier!</h1>
 </div>
-{% endblock %}
+
 
 <div id ="main">
 	<div id="nav">
-		<p>Navigation</p>
+		{% block nav_block %}<p>Navigation</p>{% endblock %}
 	</div>
 	<div id="win"
-		<p>More to come soon.</p>
+		{% block win_block %} <p>More to come soon.</p> {% endblock %}
 	</div>
 </div>
 </body>
