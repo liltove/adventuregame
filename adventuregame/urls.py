@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'adventuregame.views.home', name='home'),
+    url(r'^$', views.index, name='index'),
 )
