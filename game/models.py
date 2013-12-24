@@ -6,11 +6,11 @@ class PlayerChar(models.Model):
 	
 	#FEMALE = 'Female'
 	#MALE = 'Male'
-	#GENDER_CHOICES = (
-	#	(FEMALE, 'Female'),
-	#	(MALE, 'Male'),
-	#)
-	#gender = models.CharField(max_length=2,
+	GENDER_CHOICES = (
+		(FEMALE, 'Female'),
+		(MALE, 'Male'),
+	)
+	gender = models.CharField(max_length=2,
 	#							choices=GENDER_CHOICES,
 	#							default=FEMALE)
 
