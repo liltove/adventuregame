@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class PlayerChar(models.Model):
-	NAME = models.CharField(max_length=128, unique=True)
+	name = models.CharField(max_length=128, unique=True)
 	
 	FEMALE = 'Female'
 	MALE = 'Male'
@@ -10,11 +10,11 @@ class PlayerChar(models.Model):
 		(FEMALE, 'Female'),
 		(MALE, 'Male'),
 	)
-	GENDER = models.CharField(max_length=2,
+	gender = models.CharField(max_length=2,
 								choices=GENDER_CHOICES,
 								default=FEMALE)
 
-	AGE = models.IntegerField(max_length=3,
+	age = models.IntegerField(max_length=3,
 								default=18)
 
 	def ___unicode__(self):
