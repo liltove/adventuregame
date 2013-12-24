@@ -11,7 +11,7 @@ class PlayerChar(models.Model):
 		(MALE, 'Male'),
 	)
 	GENDER = models.CharField(max_length=2,
-								choice=GENDER_CHOICES,
+								choices=GENDER_CHOICES,
 								default=FEMALE)
 
 	AGE = models.CharInteger(max_length=3,
