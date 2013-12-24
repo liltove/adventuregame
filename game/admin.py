@@ -3,3 +3,4 @@ from game.models import PlayerChar
 
 # Register your models here.
 admin.site.register(PlayerChar)
+admin.site.register(ItemsOfWorld)
