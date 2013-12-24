@@ -14,7 +14,7 @@ class PlayerChar(models.Model):
 								choices=GENDER_CHOICES,
 								default=FEMALE)
 
-	AGE = models.CharInteger(max_length=3,
+	AGE = models.IntegerField(max_length=3,
 								default=18)
 
 	def ___unicode__(self):
